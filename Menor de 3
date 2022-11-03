@@ -1,0 +1,23 @@
+
+
+Algoritmo "LanHouse"
+//  
+//  
+
+
+Var
+         minutos, ValorApagar : real
+
+
+Inicio
+           escreva("Digite a quantidade de minutos: ")
+           leia(minutos)
+
+           ValorApagar <- 50,00
+           se minutos >100 entao
+             ValorApagar <-  ValorApagar + 2 * (minutos - 100)
+           fimse
+
+           Escreval("Valor a pagar:", ValorApagar:4:2)
+
+Fimalgoritmo
