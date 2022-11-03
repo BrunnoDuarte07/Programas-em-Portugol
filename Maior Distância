@@ -1,0 +1,29 @@
+
+
+Algoritmo "Mario distância"
+//  
+//  
+
+Var        a, b, c, maior :  real
+
+
+Inicio
+
+        Escreval("Digite as tres distancias: ")
+        Leia(a)
+        Leia(b)
+        Leia(c)
+
+              se (a > b) e (a > c) entao
+                maior <- a
+              senao
+                se b > c entao
+                   maior <- b
+                 senao
+                  maior <-c
+              fimse
+                 fimse
+                 
+                 escreval("Maior Distância = ", maior:4:2)
+                 
+Fimalgoritmo
