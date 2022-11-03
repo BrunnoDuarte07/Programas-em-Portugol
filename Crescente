@@ -1,0 +1,32 @@
+Algoritmo "Crescente"
+//  
+//  
+
+Var
+          x, soma, cont: inteiro
+          media: real
+
+Inicio
+                soma <- 0
+                cont <- 0
+                Escreval("Digite as idades: ")
+                leia(x)
+
+                 enquanto x >= 0 faca
+                 
+                   soma <- soma + x
+                   cont <- cont + 1
+
+                   leia (x)
+
+                 fimenquanto
+                 
+                 se cont = 0  entao
+                   Escreval("Impossível calcular")
+                 senao
+                 
+                  media <-  soma / cont
+                   escreval ("Média: ", media:4:2)
+                  fimse
+                 
+Fimalgoritmo
