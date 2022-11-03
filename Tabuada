@@ -1,0 +1,19 @@
+Algoritmo "tabuada"
+
+
+
+Var
+        n, i, produto :  inteiro
+
+
+Inicio
+          Escreva (" DESEJA TABUADA PARA QUAL VALOR ? ")
+          LEIA (N)
+
+          PARA i de 1 ate 10 faca
+             produto <- n * i
+             escreval(n, " x ", i, " = ", produto)
+          fimpara
+               
+
+Fimalgoritmo
