@@ -1,0 +1,19 @@
+Algoritmo "Senha"
+
+
+Var
+
+      senha : real
+
+Inicio
+
+           Escreva ("Digite a senha: ")
+           leia (senha)
+
+           enquanto senha <> 2002 faca
+                    escreva ("Senha inválida, tente novamente!")
+                    Leia (senha)
+           fimenquanto
+
+           escreval("Acesso permitido!")
+Fimalgoritmo
