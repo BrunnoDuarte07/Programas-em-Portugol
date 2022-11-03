@@ -1,0 +1,25 @@
+
+
+Algoritmo "Troco"
+
+Var      preco, dinheiro, troco, resto :  real
+         quantidade :  inteiro
+
+
+
+Inicio
+               Escreva("Preco unitário do produto: ")
+               leia( preco)
+               Escreva("Quantidade comprada: ")
+               leia( quantidade)
+               Escreva ("Dinheiro recebido: ")
+               leia( dinheiro)
+               
+                  se dinheiro >= (preco * quantidade) entao
+                    troco <- dinheiro - quantidade * preco
+                    escreval("Troco: ", troco:4:2)
+                  senao
+                  resto <- preco * quantidade - dinheiro
+                    escreval("DINHEIRO INSUFICIENTE. FALTAM ", resto:4:2, " REAIS ")
+                  fimse
+Fimalgoritmo
