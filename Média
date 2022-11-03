@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+//  
+//  
+
+
+
+Var
+
+    nota1, nota2, media: real
+
+
+
+inicio
+
+escreva("Digite a nota1:")
+leia(nota1)
+escreva("Digite a nota2:")
+leia(nota2)
+media <- (nota1 * 0.4) + (nota2 * 0.6)
+escreva("Sua média é", media)
+
+
+
+Fimalgoritmo
